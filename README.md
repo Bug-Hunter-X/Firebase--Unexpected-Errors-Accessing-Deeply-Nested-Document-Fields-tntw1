@@ -1,0 +1,3 @@
+# Firebase Nested Field Access Bug
+
+This repository demonstrates a common issue when accessing deeply nested fields within Firebase documents.  The `bug.js` file shows code that fails when intermediate fields are null or undefined. The `bugSolution.js` file provides a corrected version.  This example uses JavaScript and the Firebase JavaScript SDK.   This bug occurs when accessing deeply nested fields without error handling, which can cause unhandled exceptions during runtime.
